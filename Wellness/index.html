@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness App</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>איך אתה מרגיש היום?</h1>
+        <form id="mood-form">
+            <button type="button" onclick="submitMood('happy')">שמח</button>
+            <button type="button" onclick="submitMood('sad')">עצוב</button>
+            <button type="button" onclick="submitMood('angry')">כועס</button>
+            <button type="button" onclick="submitMood('stressed')">לחוץ</button>
+        </form>
+        <div id="suggestions">
+            <!-- הצעות יופיעו כאן -->
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
